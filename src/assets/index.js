@@ -13,6 +13,7 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import next from "./tech/next.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -21,14 +22,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+import testwin from "./company/testwin.png";
+import codeflicks from "./company/codeflicks.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import website from "./website.png";
+import airbnb from "./airbnb.png";
+import spotify from "./spotify.png";
 
 export {
   logo,
@@ -45,6 +48,7 @@ export {
   git,
   html,
   javascript,
+  next,
   mongodb,
   nodejs,
   reactjs,
@@ -52,11 +56,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  website,
+  airbnb,
+  spotify,
+
+  testwin,
+  codeflicks,
 };

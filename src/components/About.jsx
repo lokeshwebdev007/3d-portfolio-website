@@ -37,10 +37,9 @@ const About = () => {
         variants={fadeIn("", "", 0.2, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptate
-        cupiditate vel laborum! Ducimus ullam error doloribus sint quasi. Iure
-        quos quaerat id accusamus ab a illo velit quae aperiam! Aliquid
-        blanditiis quo inventore cumque velit sequi voluptatem nobis dolorum.
+        Full-stack developer with 9 months of experience equipped with latest
+        technologies looking to deliver my skills and knowledge and provide
+        value to the organisation.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

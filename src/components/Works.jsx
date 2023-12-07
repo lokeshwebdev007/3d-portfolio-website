@@ -2,7 +2,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { website } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -32,9 +32,9 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={website}
                 alt="github"
-                className="w-5 h-5 object-contain"
+                className="w-6 h-6 rounded-full object-contain"
               />
             </div>
           </div>
@@ -64,18 +64,7 @@ const Works = () => {
       </motion.div>
 
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.2, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[25px]"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-          totam id autem doloribus atque libero velit eos vitae. Nihil
-          doloremque qui dolorum mollitia repudiandae voluptatum maiores.
-          Ratione laudantium veritatis eveniet deserunt id ipsa et reiciendis
-          rerum neque, numquam nam sunt, quo eos culpa architecto nesciunt odit
-          fuga laboriosam. Animi numquam architecto quos facere perspiciatis
-          iusto? Quia iste officia incidunt fugit?
-        </motion.p>
+      
       </div>
       <div className="mt-20 flex flex-wrap gap-7 ">
         {projects.map((project, index) => (

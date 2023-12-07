@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { testimonials } from "../constants";
+// import { testimonials } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const FeedbackCard = ({
